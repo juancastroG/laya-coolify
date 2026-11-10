@@ -12,7 +12,8 @@ services:
       LAYA_DEVICE: cpu
       LAYA_API_KEY: ${LAYA_API_KEY}
       LAYA_PRELOAD: "1"
-      LAYA_MODELS: ${LAYA_MODELS:-multilingual}
+      LAYA_MODELS: ${LAYA_MODELS:-english}
+      LAYA_DEFAULT_MODEL: ${LAYA_DEFAULT_MODEL:-english}
       LAYA_MAX_LOADED: ${LAYA_MAX_LOADED:-2}
       LAYA_THREADS: "4"
       OMP_NUM_THREADS: "4"
